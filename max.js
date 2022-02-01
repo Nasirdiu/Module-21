@@ -15,9 +15,13 @@
 const largest =max(21,32,50);
 console.log(largest); */
 
-let num1 =20;
+/* let num1 =20;
 let num2 =40;
 let num3 =50;
 
 const totalMax= Math.min(num1,num2,num3);
-console.log(totalMax);
+console.log(totalMax); */
+
+let num = [10, 2, 20];
+
+console.log(Math.max(...num))
